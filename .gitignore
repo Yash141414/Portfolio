@@ -221,6 +221,7 @@ __marimo__/
 
 
 #Personal user files
+data/nifty_options_1min.parquet
 results*
 results_options_1min*
 make_pdf.py
