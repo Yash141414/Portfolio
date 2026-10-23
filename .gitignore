@@ -219,6 +219,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-results*
 
+#Personal user files
+results*
 results_options_1min*
+make_pdf.py
+NIFTY Intraday Options Three-Strategy Backtest Report.md
+NIFTY Intraday Options Three-Strategy Backtest Report.pdf
