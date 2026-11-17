@@ -1,0 +1,4 @@
+strategy,variants,sharpe_min,sharpe_median,profitable_both_halves
+Mean Reversion,42,1.13,1.57,42 of 42
+Directional,41,0.91,1.53,41 of 41
+Semi-Directional,39,1.51,2.25,39 of 39

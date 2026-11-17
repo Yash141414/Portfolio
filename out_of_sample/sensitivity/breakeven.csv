@@ -1,0 +1,7 @@
+period,strategy,break-even slippage (DTE 0 + DTE 1)
+in-sample,Mean Reversion,above 5%
+in-sample,Directional,4.98% of premium per fill
+in-sample,Semi-Directional,above 5%
+holdout,Mean Reversion,already negative at 0%
+holdout,Directional,already negative at 0%
+holdout,Semi-Directional,1.19% of premium per fill

@@ -1,0 +1,7 @@
+,day_type,Mon,Tue,Wed,Thu,Fri
+holdout,DTE 1,,"27,861","9,98,757",,
+holdout,expiry (DTE 0),,,"-20,356","-4,66,487",
+holdout,far (2+ days),"-1,15,467","1,31,076",,,"-3,13,739"
+in-sample,DTE 1,"7,63,764",,,,
+in-sample,expiry (DTE 0),"52,309","3,62,725",,,
+in-sample,far (2+ days),,,"-44,266","2,12,902","-54,449"

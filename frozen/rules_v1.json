@@ -1,0 +1,162 @@
+{
+  "frozen_at": "2026-10-24 00:35:14",
+  "git_commit": "c10d7a42c769482ea034bcf3ad6af799605a7c60",
+  "last_insample_date": "2026-10-16",
+  "note": "Rules fitted on 2025-09-01 .. 2026-09; frozen before any out-of-sample test.",
+  "rules": {
+    "Mean Reversion": {
+      "far": [
+        {
+          "ref": "open",
+          "mode": "fade",
+          "sig_t": "10:00",
+          "kind": "long",
+          "exit_t": "15:15",
+          "stop": 0.0,
+          "risk": 0.5
+        }
+      ],
+      "dte1": [
+        {
+          "ref": "pc",
+          "mode": "fade",
+          "sig_t": "10:20",
+          "kind": "long",
+          "exit_t": "15:15",
+          "stop": 1.0,
+          "risk": 1.0
+        },
+        {
+          "ref": "pc",
+          "mode": "fade",
+          "sig_t": "10:35",
+          "kind": "long",
+          "exit_t": "15:15",
+          "stop": 1.0,
+          "risk": 1.0
+        },
+        {
+          "ref": "pc",
+          "mode": "fade",
+          "sig_t": "10:50",
+          "kind": "long",
+          "exit_t": "15:15",
+          "stop": 1.0,
+          "risk": 1.0
+        }
+      ],
+      "exp": [
+        {
+          "ref": "open",
+          "mode": "fade",
+          "sig_t": "10:00",
+          "kind": "debit6",
+          "exit_t": "12:00",
+          "stop": 1.0,
+          "risk": 1.0
+        }
+      ]
+    },
+    "Directional": {
+      "far": [
+        {
+          "ref": "pcr",
+          "mode": "follow",
+          "sig_t": "10:00",
+          "kind": "long",
+          "exit_t": "15:15",
+          "stop": 0.0,
+          "risk": 1.0
+        }
+      ],
+      "dte1": [
+        {
+          "ref": "pcr",
+          "mode": "follow",
+          "sig_t": "10:15",
+          "kind": "long",
+          "exit_t": "15:15",
+          "stop": 1.0,
+          "risk": 2.0
+        }
+      ],
+      "exp": [
+        {
+          "ref": "pcr",
+          "mode": "follow",
+          "sig_t": "09:55",
+          "kind": "credit5",
+          "exit_t": "15:15",
+          "stop": 0.0,
+          "risk": 0.5
+        }
+      ]
+    },
+    "Semi-Directional": {
+      "far": [
+        {
+          "ref": "pc",
+          "mode": "follow",
+          "sig_t": "09:30",
+          "kind": "otmcredit3",
+          "exit_t": "12:00",
+          "stop": 0.0,
+          "risk": 0.5
+        }
+      ],
+      "dte1": [
+        {
+          "ref": "pc",
+          "mode": "fade",
+          "sig_t": "10:30",
+          "kind": "credit5",
+          "exit_t": "15:15",
+          "stop": 0.0,
+          "risk": 3.0
+        }
+      ],
+      "exp": [
+        {
+          "ref": "open",
+          "mode": "fade",
+          "sig_t": "10:00",
+          "kind": "credit5",
+          "exit_t": "12:00",
+          "stop": 0.0,
+          "risk": 3.0
+        }
+      ]
+    }
+  },
+  "sizing": {
+    "MAX_PREMIUM_FRAC": 0.2,
+    "MAX_ONE_LOT_RISK": 0.05
+  },
+  "config": {
+    "capital_per_strategy": 1000000.0,
+    "risk_per_trade": 0.02,
+    "max_lots": 20,
+    "session_open": "09:15",
+    "last_entry": "14:30",
+    "square_off": "15:15",
+    "strike_step": 50,
+    "fill_delay": 0,
+    "fill_field": "open"
+  },
+  "costs": {
+    "brokerage_per_order": 20.0,
+    "stt_sell": 0.001,
+    "exchange_txn": 0.0003503,
+    "sebi_per_crore": 10.0,
+    "stamp_buy": 3e-05,
+    "gst": 0.18,
+    "slippage_pts": 0.25,
+    "slippage_pct": 0.005
+  },
+  "file_sha256": {
+    "backtest/strategies.py": "98ec64772460b4255d9808edfa905669b75513ea60d2a60087128f03578a2fe9",
+    "backtest/config.py": "698fbc01dcb934d2bf6be5f291370ad70c66337eeccffa2b73e1be4c2b9036fe",
+    "backtest/engine.py": "c06c3674d43dcd31719b306c8923159a40a0fe461206b6b6f0287169ee8d0b09",
+    "backtest/data.py": "8fd4c19a1c29590992dbbb5daec223a2db9ac0c8860a6585529b9abd0e897862"
+  }
+}

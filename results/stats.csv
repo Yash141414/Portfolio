@@ -1,0 +1,34 @@
+,Mean Reversion,Directional,Semi-Directional,Combined
+Start,2025-09-01,2025-09-01,2025-09-01,2025-09-01
+End,2026-10-16,2026-10-16,2026-10-16,2026-10-16
+Trading days,278,278,278,278
+Final equity,"Rs 16,08,025","Rs 13,79,609","Rs 13,05,350","Rs 42,92,985"
+Total return,60.8%,38.0%,30.5%,43.1%
+CAGR,52.7%,33.2%,26.8%,37.6%
+Annual volatility,26.8%,19.7%,11.0%,14.6%
+Sharpe,1.74,1.58,2.26,2.31
+Sharpe 95% CI low,0.08,-0.14,0.40,0.71
+Sharpe 95% CI high,3.40,3.29,4.12,3.90
+P(true Sharpe > 0),98.0%,96.4%,99.1%,99.8%
+Sortino,3.76,3.44,2.87,4.94
+Max drawdown,-9.9%,-12.8%,-4.4%,-7.3%
+Longest drawdown (days),52,80,33,61
+Calmar,5.33,2.60,6.12,5.12
+Worst day,-3.86%,-3.05%,-2.48%,-2.55%
+Best day,8.88%,5.95%,2.72%,5.53%
+Days with a trade,100%,100%,100%,100%
+Positive months,57%,57%,57%,71%
+Trades,384,278,278,940
+Win rate,42.2%,50.4%,55.4%,48.5%
+Avg P&L / trade,"Rs 1,583","Rs 1,365","Rs 1,098","Rs 1,376"
+Avg win,"Rs 12,060","Rs 10,138","Rs 4,878","Rs 9,044"
+Avg loss,"Rs -6,061","Rs -7,534","Rs -3,595","Rs -5,849"
+Avg win / avg loss,1.99,1.35,1.36,1.55
+Profit factor,1.45,1.37,1.68,1.46
+Best trade,"Rs 57,708","Rs 65,829","Rs 30,184","Rs 65,829"
+Worst trade,"Rs -22,920","Rs -31,489","Rs -25,617","Rs -31,489"
+Max consecutive losses,15,7,5,15
+Avg holding time,265 min,309 min,169 min,250 min
+Gross P&L (after slippage),"Rs 6,42,660","Rs 4,06,249","Rs 3,41,236","Rs 13,90,145"
+Charges,"Rs 34,635","Rs 26,640","Rs 35,885","Rs 97,160"
+Charges / gross profits,2%,2%,5%,2%

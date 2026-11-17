@@ -1,0 +1,18 @@
+,q,days,lot size,expiry weekday (most common),DTE 1 days,DTE 1 weekday
+holdout,2023Q1,62,50,Thu,13,"Wed 11, Tue 2"
+holdout,2023Q2,60,50,Thu,13,"Wed 12, Tue 1"
+holdout,2023Q3,63,50,Thu,13,Wed 13
+holdout,2023Q4,60,50,Thu,13,Wed 13
+holdout,2024Q1,60,50,Thu,13,Wed 13
+holdout,2024Q2,60,25,Thu,11,"Wed 10, Tue 1"
+holdout,2024Q3,64,25,Thu,12,"Wed 11, Tue 1"
+holdout,2024Q4,61,25/75,Thu,10,Wed 10
+holdout,2025Q1,61,75,Thu,12,Wed 12
+holdout,2025Q2,61,75,Thu,13,"Wed 11, Tue 2"
+holdout,2025Q3,42,75,Thu,8,Wed 8
+in-sample,2025Q3,22,75,Tue,5,Mon 5
+in-sample,2025Q4,61,65/75,Tue,12,Mon 12
+in-sample,2026Q1,59,65,Tue,10,Mon 10
+in-sample,2026Q2,60,65,Tue,12,Mon 12
+in-sample,2026Q3,65,65,Tue,12,Mon 12
+in-sample,2026Q4,11,65,Tue,2,Mon 2

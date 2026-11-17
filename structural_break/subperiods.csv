@@ -1,0 +1,17 @@
+,CAGR,Sharpe,Max drawdown,Trades
+Mean Reversion 2023-01 to 2024-11-19 (before SEBI changes),14.6%,0.52,-22.7%,650
+"Mean Reversion 2024-11-20 to 2025-08 (after SEBI changes, lot 75, Thu expiry)",-15.3%,-0.68,-19.3%,266
+Directional 2023-01 to 2024-11-19 (before SEBI changes),17.6%,0.66,-31.0%,462
+"Directional 2024-11-20 to 2025-08 (after SEBI changes, lot 75, Thu expiry)",-23.1%,-1.66,-20.5%,192
+Semi-Directional 2023-01 to 2024-11-19 (before SEBI changes),-2.9%,-0.19,-14.9%,462
+"Semi-Directional 2024-11-20 to 2025-08 (after SEBI changes, lot 75, Thu expiry)",6.9%,0.77,-5.6%,192
+Combined 2023-01 to 2024-11-19 (before SEBI changes),10.1%,0.54,-12.6%,1574
+"Combined 2024-11-20 to 2025-08 (after SEBI changes, lot 75, Thu expiry)",-12.6%,-1.09,-13.0%,650
+"Mean Reversion 2025-09 to 2025-12 (lot 75, Tue expiry)",3.0%,0.24,-8.0%,117
+"Mean Reversion 2026-01 to 2026-10 (lot 65, Tue expiry)",80.4%,2.31,-9.9%,267
+"Directional 2025-09 to 2025-12 (lot 75, Tue expiry)",9.2%,0.52,-12.8%,83
+"Directional 2026-01 to 2026-10 (lot 65, Tue expiry)",44.9%,2.07,-8.3%,195
+"Semi-Directional 2025-09 to 2025-12 (lot 75, Tue expiry)",5.9%,0.57,-2.5%,83
+"Semi-Directional 2026-01 to 2026-10 (lot 65, Tue expiry)",36.8%,3.00,-4.4%,195
+"Combined 2025-09 to 2025-12 (lot 75, Tue expiry)",6.0%,0.49,-7.3%,283
+"Combined 2026-01 to 2026-10 (lot 65, Tue expiry)",53.7%,3.03,-4.3%,657

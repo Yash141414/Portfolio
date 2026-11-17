@@ -1,0 +1,4 @@
+period,weekday,DTE 1 days,avg |overnight gap|,avg long-straddle return
+holdout,Tue,7,0.46%,-7.9%
+holdout,Wed,124,0.24%,+0.4%
+in-sample,Mon,53,0.48%,+0.7%
